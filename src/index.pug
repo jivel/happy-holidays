@@ -1,0 +1,31 @@
+.main-wrapper
+	.tree-container
+		.star
+		.spiral-container
+			ul.spiral.one
+				- for (var x = 1; x <=43; x++)
+					li.light-wrapper(class='light-wrapper-' + x)
+						.stabilise: .light
+
+			ul.spiral.two
+				- for (var x = 1; x <=43; x++)
+					li.light-wrapper(class='light-wrapper-' + x)
+						.stabilise: .light
+
+			ul.spiral.three
+				- for (var x = 1; x <=43; x++)
+					li.light-wrapper(class='light-wrapper-' + x)
+						.stabilise: .light
+
+			ul.spiral.four
+				- for (var x = 1; x <=43; x++)
+					li.light-wrapper(class='light-wrapper-' + x)
+						.stabilise: .light
+			ul.spiral.five
+				- for (var x = 1; x <=23; x++)
+					li.light-wrapper(class='light-wrapper-' + x)
+						.stabilise: .light
+	.text-container
+		//- h2 The best is yet to come
+		h2.happy ¡Felices Fiestas!
+
